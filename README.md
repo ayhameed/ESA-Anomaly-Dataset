@@ -15,7 +15,7 @@ PyTorch-based anomaly detection on ESA telemetry using an autoencoder and recons
 - `model/autoencoder.py` — autoencoder architecture
 - `ESA-Mission1/` — Mission 1 telemetry and metadata
 
-## Method (Short)
+## Method
 
 1. Merge selected telemetry channels.
 2. Downsample and clean missing values (`ffill`/`bfill`).
